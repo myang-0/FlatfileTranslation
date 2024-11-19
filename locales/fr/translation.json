@@ -35,13 +35,13 @@
         "errors": {
             "url": "L’url {{url}} ne répond pas",
             "processingFail": "Une erreur est survenue lors du traitement.",
+            "emptyRecords": "Aucune donnée valide à transférer.",
             "rejectedRecords": "Certains lignes ont été rejetés, seules les lignes valides seront traitées dans l’import."
         },
         "jobs": {
             "queued": "Préparation des données avant le début de l'envoi.",
             "processing": "Transfert des données en cours",
-            "processed": "Les données ont été transférées et l'import va commencer.",
-            "failed": "Aucune donnée valide à transférer."
+            "processed": "Les données ont été transférées et l'import va commencer."
         }
     }
 }
