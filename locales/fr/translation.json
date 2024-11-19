@@ -12,6 +12,13 @@
                 "hasData": "Cette action est disponible uniquement si vous avez des lignes valides.",
                 "lockedUntilHookCompletes": "Ces actions seront disponibles après la vérification des données."
             }
+        },
+        "table": {
+            "contextMenu": {
+                "pin": {
+                    "apply": "Épingler la colonne"
+                }
+            }
         }
     },
     "mapping": {
@@ -23,11 +30,18 @@
             "preparing": "Préparation de la correspondance des champs..."
         }
     },
-    "table": {
-        "contextMenu": {
-            "pin": {
-                "apply": "Épingler la colonne"
-            }
+
+    "customMessage": {
+        "errors": {
+            "url": "L’url {{url}} ne répond pas",
+            "processingFail": "Une erreur est survenue lors du traitement.",
+            "rejectedRecords": "Certains lignes ont été rejetés, seules les lignes valides seront traitées dans l’import."
+        },
+        "jobs": {
+            "queued": "Préparation des données avant le début de l'envoi.",
+            "processing": "Transfert des données en cours",
+            "processed": "Les données ont été transférées et l'import va commencer.",
+            "failed": "Aucune donnée valide à transférer."
         }
     }
 }
